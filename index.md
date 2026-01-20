@@ -13,3 +13,7 @@ I’m a Chemistry PhD and college professor building toward software engineering
 ## What I’m seeking
 I’m seeking **software engineering** (or **full-stack**) opportunities where I can build polished user experiences, ship features iteratively, and collaborate on real products.
 
+## Explore
+- [Projects](projects)
+- [Resume & Achievements](resume)
+- [Contact](contact)
