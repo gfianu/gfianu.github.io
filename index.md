@@ -5,7 +5,7 @@ title: Home
 
 # Hi, I’m Godfred
 
-![Brand image](assets/brand-1.jpg)
+![Chemistry meets technology](assets/brand-chem-tech.png)
 
 ## Summary
 I’m a Chemistry PhD and college professor building toward software engineering roles. I build web apps with **React**, write backend logic with **Java**, and work with **SQL** and data workflows. I enjoy projects that connect education, science, and technology.
