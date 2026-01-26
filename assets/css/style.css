@@ -108,3 +108,29 @@ main {
 main.container {
   padding-bottom: 34px;
 }
+
+.hero {
+  position: relative;
+  padding: 60px 0;
+  background:
+    linear-gradient(
+      rgba(11, 18, 32, 0.85),
+      rgba(11, 18, 32, 0.85)
+    ),
+    url("/assets/brand-chem-tech.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 24px;
+}
+
+.hero h1,
+.hero h2,
+.hero p,
+.hero li,
+.hero a {
+  color: var(--text);
+}
+
+.hero ul {
+  margin-left: 18px;
+}
