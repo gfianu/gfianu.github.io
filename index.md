@@ -5,6 +5,8 @@ title: Home
 
 # Hi, I’m Godfred
 
+![Profile photo]({{ site.profile_image }})
+
 ![Chemistry meets technology](assets/brand-chem-tech.png)
 
 ## Summary
