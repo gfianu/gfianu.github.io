@@ -5,7 +5,12 @@ title: Resume & Achievements
 
 # Resume
 
-**Download:** [Resume (PDF)](assets/SWD_Resume- 2026_Godfred_F.pdf)
+<strong>Download:</strong>
+<a href="assets/SWD_Resume- 2026_Godfred_F.pdf"
+   target="_blank"
+   rel="noopener noreferrer">
+  Resume (PDF)
+</a>
 
 ## Preview
 ![Resume preview](assets/SWD_Resume- 2026_Godfred_F-Preview.png)
