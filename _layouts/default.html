@@ -6,29 +6,39 @@
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
   </head>
+
   <body>
-    <header class="site-header">
-      <div class="container">
-        <div class="brand">
-          <a class="brand-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-          <div class="brand-subtitle">{{ site.description }}</div>
+    <div id="body-container">
+
+      <header class="site-header">
+        <div class="container">
+          <div class="brand">
+            <a class="brand-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+            <div class="brand-subtitle">{{ site.description }}</div>
+          </div>
+          <nav class="nav">
+            <a href="{{ '/projects' | relative_url }}">Projects</a>
+            <a href="{{ '/resume' | relative_url }}">Resume</a>
+            <a href="{{ '/contact' | relative_url }}">Contact</a>
+          </nav>
         </div>
-        <nav class="nav">
-          <a href="{{ '/projects' | relative_url }}">Projects</a>
-          <a href="{{ '/resume' | relative_url }}">Resume</a>
-          <a href="{{ '/contact' | relative_url }}">Contact</a>
-        </nav>
-      </div>
-    </header>
+      </header>
 
-    <main class="container">
-      {{ content }}
-    </main>
+      <main class="container">
+        {{ content }}
+      </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <small>© {{ site.title }} · Built with GitHub Pages</small>
-      </div>
-    </footer>
+      <footer class="site-footer">
+        <div class="container">
+          <small>
+            © <span id="year"></span> {{ site.title }} · Built with GitHub Pages
+          </small>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="{{ '/assets/js/year.js' | relative_url }}"></script>
   </body>
 </html>
+

@@ -78,3 +78,21 @@ img{max-width:100%; border-radius:16px; border:1px solid var(--border);}
   margin-top:34px;
   color:var(--muted);
 }
+
+#body-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 15px clamp(20px, 4vw, 30px) 20px;
+}
+
+main {
+  flex: 1;
+}
