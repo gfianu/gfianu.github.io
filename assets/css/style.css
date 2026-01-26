@@ -18,6 +18,20 @@ body{
   line-height:1.6;
 }
 
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
 .container{max-width:980px; margin:0 auto; padding: 20px;}
 
 .site-header{
@@ -75,14 +89,8 @@ img{max-width:100%; border-radius:16px; border:1px solid var(--border);}
 
 .site-footer{
   border-top:1px solid var(--border);
-  margin-top:34px;
   color:var(--muted);
-}
-
-#body-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+  margin-top: 0;
 }
 
 header,
@@ -95,4 +103,8 @@ footer {
 
 main {
   flex: 1;
+}
+
+main.container {
+  padding-bottom: 34px;
 }
